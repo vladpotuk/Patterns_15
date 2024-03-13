@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-public class ConcreteAggregate<T> : IAggregate<T>
+﻿public class ConcreteAggregate<T> : IAggregate<T>
 {
     private List<T> collection = new List<T>();
 
