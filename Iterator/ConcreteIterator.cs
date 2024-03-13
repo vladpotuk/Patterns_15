@@ -2,7 +2,6 @@
 {
     private ConcreteAggregate<T> aggregate;
     private int currentIndex = 0;
-
     public ConcreteIterator(ConcreteAggregate<T> aggregate)
     {
         this.aggregate = aggregate;
